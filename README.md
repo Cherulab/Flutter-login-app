@@ -1,15 +1,21 @@
-# Flutter Login  / Register MYSQl
+## Login Flutter
 
-A new Flutter project.
+### Description
+a simple app flutter with a login and register. There is a admin and user acces !
 
-## Getting Started
+## Table of Contents
 
-1. copy folder `flutter_login` to `xampp/htdocs`
-2. open `phpmyadmin` in your browser and import database `login_flutter.sql`
-3. Cek your IPADDRESS, open `cmd` write `ipconfig` and press `enter`
-4. change code in file `api.dart` to <br>
-``class Api {
-  static String url = "http://IPADDRESS/flutter_login/check.php";
-  static String regis = "http://IPADDRESS/flutter_login/register.php";
-}``
-5. Ok, greate, happy hacking
+    Installation
+    Usage
+    Contributing
+    License
+
+## Installation
+### Dependencies
+- http: 
+- provider: ^2.0.1 
+- cupertino_icons: ^0.1.2]
+
+### License
+
+[Insert information on the license for your project here, including any restrictions or requirements for use]
